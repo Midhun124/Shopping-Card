@@ -1,0 +1,73 @@
+
+/*  you can change this in you preffer  */
+
+
+.container {
+  width: 99%;
+  padding: 10px;
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-4 {
+  width: 33.33%;
+  margin: 10px;
+  
+}
+
+/* the card appearance.*/
+.card {
+  width: 100%;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+}
+
+/* card image   */
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  background-color: lightgray;
+  border-radius: 5px 5px 0 0;
+}
+
+/* card body (the title , description and button include this card body) */
+.card-body {
+  width: 100%;
+  height: 200px;
+}
+
+/* the product title */
+.card-title {
+  width: 90%;
+  margin: 0 0 0 15px;
+}
+
+/* the product description */
+.card-description {
+  width: 90%;
+  margin: 10px 0 0 15px;
+}
+
+/* confirmation details */
+.confirm-button {
+  width: 90%;
+  margin: 0 auto 0;
+  font-size: 13px;
+}
+
+/* the cart button  */
+.cart-button {
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium';
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 0 0 0 15px;
+}
